@@ -1,3 +1,14 @@
+# PyCharm
+.idea
+
+# Terraform
+.terraform*
+terraform.*
+
+# Lambda
+lambda.zip
+lambda_package
+
 # Byte-compiled / optimized / DLL files
 __pycache__/
 *.py[cod]
