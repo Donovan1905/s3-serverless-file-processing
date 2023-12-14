@@ -4,7 +4,7 @@ module "lambda" {
 
   function_name = "${var.project_name}-process-sales-data"
   runtime       = "python3.11"
-  handler       = "src.image_processing_handler.lambda_handler"
+  handler       = "src.file_processing_handler.lambda_handler"
   lambda_role   = aws_iam_role.iam_for_lambda.arn
   create_role   = false
   environment_variables = {
