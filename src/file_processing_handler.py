@@ -58,6 +58,6 @@ def lambda_handler(event, context):
     return {
         "statusCode": 200,
         "body": json.dumps({
-            "message": "image saved to s3://" + BUCKET_NAME + "/",
+            "message": "data processed with command_id " + command_id,
         }),
     }
